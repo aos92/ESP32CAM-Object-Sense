@@ -37,15 +37,15 @@ https://github.com/tensorflow/tfjs-models/blob/master/coco-ssd/src/classes.ts
  */
 
 // Mengatur koneksi WIFI dengan menyertakan nama dan kata sandi jaringan
-const char* ssid     = "android";   // Nama SSID jaringan Anda
-const char* password = "12345678";   // Kata sandi jaringan Anda
+const char* ssid     = "your_SSD";   // Nama SSID jaringan Anda
+const char* password = "your_PASSWORD";   // Kata sandi jaringan Anda
 
 int angle1Value1 = 4850; // Nilai sudut 1
 int angle1Value2 = 4850; // Nilai sudut 2
 
 // Mengatur koneksi ke titik akses (AP) dengan menyertakan nama dan kata sandi
-const char* apssid = "android"; // Nama SSID AP Anda
-const char* appassword = "12345678";    // Kata sandi AP Anda, minimal delapan karakter
+const char* apssid = "your_AP_SSD"; // Nama SSID AP Anda
+const char* appassword = "your_AP_PASSWORD";    // Kata sandi AP Anda, minimal delapan karakter
 
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
